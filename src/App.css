@@ -56,11 +56,16 @@
   text-align: center;
   border-radius: 10px;
   font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#Item__content .item h5{
+
+#Item__content .item h5 {
   font-weight: 700;
   font-size: 25px;
 }
+
 /* FOOTER */
 #Footer {
   padding: 50px;
@@ -72,22 +77,24 @@
 #Footer p {
   margin: 0;
 }
-@media (max-width: 575.98px) { 
+
+@media (max-width: 575.98px) {
   #Banner .content {
     padding: 10px;
     margin: 20px;
     margin-bottom: 50px;
   }
+
   #Banner h3 {
     font-size: 30px;
     font-weight: 700;
   }
-  
+
   #Banner p {
     font-size: 18px;
   }
-  
+
   #Banner button {
     font-size: 18px;
   }
- }
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import BannerLayout from './BannerLayout'
-import ItemLayout from './ItemLayout'
+import RenderWithMap from '../RenderWithMap/RenderWithMap'
 
 export default class BodyLayout extends Component {
     render() {
@@ -9,14 +9,7 @@ export default class BodyLayout extends Component {
                 <BannerLayout />
                 <div id='Item__content'>
                     <div className='container'>
-                        <div className='row'>
-                            <ItemLayout />
-                            <ItemLayout />
-                            <ItemLayout />
-                            <ItemLayout />
-                            <ItemLayout />
-                            <ItemLayout />
-                        </div>
+                        <RenderWithMap />
                     </div>
                 </div>
             </div>

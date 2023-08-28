@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import HeaderLayout from './Layout/HeaderLayout';
 import BodyLayout from './Layout/BodyLayout';
